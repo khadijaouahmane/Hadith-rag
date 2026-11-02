@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~ 
+
+# Kaggle outputs / artefacts
+kaggle/working/
+chroma_hadith_bge_m3_cosine/
+*.png
+*.csv
+*.json
+!hadith-rag.ipynb
+!README.md
+
+# Système
+.DS_Store
+Thumbs.db
